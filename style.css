@@ -1,0 +1,17 @@
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.cl1{
+    background-attachment: fixed;
+    position: unset;
+
+}
+.cl2{
+    padding: 0 1rem;
+    color: var(--text-dark);
+    transition: 0.3s
+
+}
