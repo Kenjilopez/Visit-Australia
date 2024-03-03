@@ -1,8 +1,11 @@
 .nav-links {
-    list-style: none;
-    display: flex;
+    position:initial;    
+    text-align: center;
+    height: 200px;
+    display:-webkit-flex;
     align-items: center;
-    gap: 1rem;
+    justify-content: center;
+    box-sizing: inherit;
 }
 .cl1{
     background-attachment: fixed;
