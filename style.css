@@ -6,15 +6,33 @@
     align-items: center;
     justify-content: center;
     box-sizing: inherit;
+    
 }
-.cl1{
+.link{
     background-attachment: fixed;
-    position: unset;
-
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    width: 5em;
+    font-family:Arial, Helvetica, sans-serif;
 }
-.cl2{
-    padding: 0 1rem;
-    color: var(--text-dark);
-    transition: 0.3s
+
+.title{
+    position: relative;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.title1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 
 }
